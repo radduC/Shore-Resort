@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Shore-Resort/precache-manifest.cf3eaf1ca8192f570d01b344a96292f6.js"
+  "/Shore-Resort/precache-manifest.c92d2996215b38a6f49d094195bede5c.js"
 );
 
 self.addEventListener('message', (event) => {
