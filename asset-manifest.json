@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Shore-Resort/static/css/main.b964b93c.chunk.css",
-    "main.js": "/Shore-Resort/static/js/main.2752ab9a.chunk.js",
-    "main.js.map": "/Shore-Resort/static/js/main.2752ab9a.chunk.js.map",
+    "main.js": "/Shore-Resort/static/js/main.a4aed14c.chunk.js",
+    "main.js.map": "/Shore-Resort/static/js/main.a4aed14c.chunk.js.map",
     "runtime-main.js": "/Shore-Resort/static/js/runtime-main.846b96c3.js",
     "runtime-main.js.map": "/Shore-Resort/static/js/runtime-main.846b96c3.js.map",
     "static/css/2.e62b1ac3.chunk.css": "/Shore-Resort/static/css/2.e62b1ac3.chunk.css",
     "static/js/2.0e3bb38a.chunk.js": "/Shore-Resort/static/js/2.0e3bb38a.chunk.js",
     "static/js/2.0e3bb38a.chunk.js.map": "/Shore-Resort/static/js/2.0e3bb38a.chunk.js.map",
     "index.html": "/Shore-Resort/index.html",
-    "precache-manifest.5482998eab702da958f0794ea117a850.js": "/Shore-Resort/precache-manifest.5482998eab702da958f0794ea117a850.js",
+    "precache-manifest.5d9081a194afdac677380b2ff1dda0eb.js": "/Shore-Resort/precache-manifest.5d9081a194afdac677380b2ff1dda0eb.js",
     "service-worker.js": "/Shore-Resort/service-worker.js",
     "static/css/2.e62b1ac3.chunk.css.map": "/Shore-Resort/static/css/2.e62b1ac3.chunk.css.map",
     "static/css/main.b964b93c.chunk.css.map": "/Shore-Resort/static/css/main.b964b93c.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.e62b1ac3.chunk.css",
     "static/js/2.0e3bb38a.chunk.js",
     "static/css/main.b964b93c.chunk.css",
-    "static/js/main.2752ab9a.chunk.js"
+    "static/js/main.a4aed14c.chunk.js"
   ]
 }
