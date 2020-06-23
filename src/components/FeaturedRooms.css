@@ -1,0 +1,20 @@
+/* .featured-rooms-grid {
+	--auto-grid-min-size: 40rem;
+	margin: 2rem auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+	gap: 3rem;
+} */
+
+.featured-rooms-grid {
+	margin: 2rem auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+/* @media screen and (max-width: 600px) {
+	.featured-rooms-grid {
+		--auto-grid-min-size: 20rem;
+	}
+} */

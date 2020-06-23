@@ -1,0 +1,49 @@
+.room_container {
+	width: 80%;
+	margin: 6vh auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 4rem;
+	justify-items: center;
+}
+
+.features {
+	margin: 0.5rem 0;
+	font-size: 1.2rem;
+}
+
+.slick-prev {
+	left: 30px;
+	z-index: 1;
+}
+
+.slick-prev:before {
+	font-size: 30px;
+}
+
+.slick-next {
+	right: 30px;
+	z-index: 1;
+}
+
+.slick-next:before {
+	font-size: 30px;
+}
+
+.carousel {
+	width: 50%;
+	margin: 20px auto;
+}
+
+@media screen and (max-width: 1300px) {
+	.carousel {
+		width: 100%;
+	}
+
+	.room_container {
+		width: 100%;
+		grid-template-columns: 1fr;
+		justify-items: start;
+		padding: 2rem;
+	}
+}

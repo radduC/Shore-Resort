@@ -1,0 +1,56 @@
+/* .rooms-grid {
+	margin: 2rem auto;
+	width: 1800px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 3rem;
+} */
+
+.rooms-grid {
+	margin: 2rem auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.options-container {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	background-color: #f8f9fa;
+}
+
+.sticky {
+	position: sticky;
+	top: 111px;
+	z-index: 10;
+}
+
+.label {
+	font-size: 1.5rem;
+}
+
+.label-checkbox {
+	margin-left: 10px;
+	font-size: 1.3rem;
+}
+
+#room-price-slider {
+	opacity: 0.7;
+}
+
+#room-price-slider:hover {
+	opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+	.options-container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.checkboxes {
+		display: inline-block;
+		margin-left: 1rem;
+	}
+}

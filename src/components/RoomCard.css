@@ -1,0 +1,66 @@
+.room-container {
+	text-align: center;
+	background-color: #cccccc;
+	letter-spacing: 0.1rem;
+	position: relative;
+	cursor: pointer;
+	padding-bottom: 0.8rem;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+	margin: 20px auto;
+	width: 600px;
+}
+
+.room-img-wrapper {
+	overflow: hidden;
+}
+
+.room-image {
+	transition: transform 300ms;
+}
+
+.room-image:hover {
+	transform: scale(1.05);
+}
+
+.room-price {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #505050;
+	opacity: 0.8;
+	margin: 0;
+	padding: 1rem 22px;
+	color: white;
+	width: 7rem;
+	border-bottom-right-radius: 20px;
+	z-index: 2;
+}
+
+.span-price {
+	font-size: 1.5rem;
+}
+
+.span-night {
+	font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+	.room-container {
+		width: 70%;
+		padding: 0;
+	}
+
+	.room-price {
+		width: 4.2rem;
+		padding: 0.2rem;
+	}
+
+	.room-price,
+	.span-price {
+		font-size: 1rem;
+	}
+
+	.h2 {
+		font-size: 1rem;
+	}
+}
