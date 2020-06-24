@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2835b3ec126c829f0a47455a68864bca",
+    "revision": "d627619c8f58c24a98808d96a0ec2ad4",
     "url": "/Shore-Resort/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Shore-Resort/static/css/2.e62b1ac3.chunk.css"
   },
   {
-    "revision": "cd959879e9bb1d95e6ad",
+    "revision": "91a2e4de386448266efa",
     "url": "/Shore-Resort/static/css/main.9eb5fa5f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Shore-Resort/static/js/2.0e3bb38a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd959879e9bb1d95e6ad",
-    "url": "/Shore-Resort/static/js/main.a4aed14c.chunk.js"
+    "revision": "91a2e4de386448266efa",
+    "url": "/Shore-Resort/static/js/main.1165536b.chunk.js"
   },
   {
     "revision": "04dfed5ef8a322a83bcd",
