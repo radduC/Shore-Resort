@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Shore-Resort/static/css/main.b964b93c.chunk.css",
+    "main.css": "/Shore-Resort/static/css/main.9eb5fa5f.chunk.css",
     "main.js": "/Shore-Resort/static/js/main.a4aed14c.chunk.js",
     "main.js.map": "/Shore-Resort/static/js/main.a4aed14c.chunk.js.map",
     "runtime-main.js": "/Shore-Resort/static/js/runtime-main.846b96c3.js",
@@ -9,10 +9,10 @@
     "static/js/2.0e3bb38a.chunk.js": "/Shore-Resort/static/js/2.0e3bb38a.chunk.js",
     "static/js/2.0e3bb38a.chunk.js.map": "/Shore-Resort/static/js/2.0e3bb38a.chunk.js.map",
     "index.html": "/Shore-Resort/index.html",
-    "precache-manifest.5d9081a194afdac677380b2ff1dda0eb.js": "/Shore-Resort/precache-manifest.5d9081a194afdac677380b2ff1dda0eb.js",
+    "precache-manifest.04f76b4eb31f37a16bf1789f9dd72412.js": "/Shore-Resort/precache-manifest.04f76b4eb31f37a16bf1789f9dd72412.js",
     "service-worker.js": "/Shore-Resort/service-worker.js",
     "static/css/2.e62b1ac3.chunk.css.map": "/Shore-Resort/static/css/2.e62b1ac3.chunk.css.map",
-    "static/css/main.b964b93c.chunk.css.map": "/Shore-Resort/static/css/main.b964b93c.chunk.css.map",
+    "static/css/main.9eb5fa5f.chunk.css.map": "/Shore-Resort/static/css/main.9eb5fa5f.chunk.css.map",
     "static/js/2.0e3bb38a.chunk.js.LICENSE.txt": "/Shore-Resort/static/js/2.0e3bb38a.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/Shore-Resort/static/media/slick.f97e3bbf.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.846b96c3.js",
     "static/css/2.e62b1ac3.chunk.css",
     "static/js/2.0e3bb38a.chunk.js",
-    "static/css/main.b964b93c.chunk.css",
+    "static/css/main.9eb5fa5f.chunk.css",
     "static/js/main.a4aed14c.chunk.js"
   ]
 }
