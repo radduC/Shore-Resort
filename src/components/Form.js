@@ -62,7 +62,7 @@ export default function Form() {
 			<div className="form-container">
 				<h1>Contact us</h1>
 				<p>{result}</p>
-				<form className="form">
+				<form className="form" onSubmit={handleClick}>
 					<div className="name-email-container">
 						<label htmlFor="name" className="form-label">
 							FULL NAME
@@ -121,7 +121,7 @@ export default function Form() {
 							onChange={handleChange}
 						/>​
 					</div>
-					<input onClick={handleClick} className="contact-form-button" type="submit" value="Send message" />
+					<input className="contact-form-button" type="submit" value="Send message" />
 				</form>
 			</div>
 			<img className="form-img" src="/Shore-Resort/images/defaultBcg.jpeg" alt="" />

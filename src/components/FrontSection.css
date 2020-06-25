@@ -1,6 +1,6 @@
 .front-section-container {
 	background-size: cover;
-	height: 80vh;
+	height: auto;
 	padding: 250px;
 }
 
@@ -43,6 +43,10 @@
 }
 
 @media screen and (max-width: 1360px) {
+	.front-section-container {
+		height: auto;
+	}
+
 	.front-section-central {
 		width: fit-content;
 	}
