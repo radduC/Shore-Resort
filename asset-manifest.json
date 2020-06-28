@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Shore-Resort/static/css/main.9eb5fa5f.chunk.css",
-    "main.js": "/Shore-Resort/static/js/main.1165536b.chunk.js",
-    "main.js.map": "/Shore-Resort/static/js/main.1165536b.chunk.js.map",
-    "runtime-main.js": "/Shore-Resort/static/js/runtime-main.846b96c3.js",
-    "runtime-main.js.map": "/Shore-Resort/static/js/runtime-main.846b96c3.js.map",
+    "main.css": "/Shore-Resort/static/css/main.cb02447e.chunk.css",
+    "main.js": "/Shore-Resort/static/js/main.7448a21a.chunk.js",
+    "main.js.map": "/Shore-Resort/static/js/main.7448a21a.chunk.js.map",
+    "runtime-main.js": "/Shore-Resort/static/js/runtime-main.f85a2efe.js",
+    "runtime-main.js.map": "/Shore-Resort/static/js/runtime-main.f85a2efe.js.map",
     "static/css/2.e62b1ac3.chunk.css": "/Shore-Resort/static/css/2.e62b1ac3.chunk.css",
-    "static/js/2.0e3bb38a.chunk.js": "/Shore-Resort/static/js/2.0e3bb38a.chunk.js",
-    "static/js/2.0e3bb38a.chunk.js.map": "/Shore-Resort/static/js/2.0e3bb38a.chunk.js.map",
+    "static/js/2.809987dc.chunk.js": "/Shore-Resort/static/js/2.809987dc.chunk.js",
+    "static/js/2.809987dc.chunk.js.map": "/Shore-Resort/static/js/2.809987dc.chunk.js.map",
     "index.html": "/Shore-Resort/index.html",
-    "precache-manifest.4d5311cfdc763a44ec4e5bb1a7970e62.js": "/Shore-Resort/precache-manifest.4d5311cfdc763a44ec4e5bb1a7970e62.js",
+    "precache-manifest.1225bda60b4b80812ba4232e3c9afa36.js": "/Shore-Resort/precache-manifest.1225bda60b4b80812ba4232e3c9afa36.js",
     "service-worker.js": "/Shore-Resort/service-worker.js",
     "static/css/2.e62b1ac3.chunk.css.map": "/Shore-Resort/static/css/2.e62b1ac3.chunk.css.map",
-    "static/css/main.9eb5fa5f.chunk.css.map": "/Shore-Resort/static/css/main.9eb5fa5f.chunk.css.map",
-    "static/js/2.0e3bb38a.chunk.js.LICENSE.txt": "/Shore-Resort/static/js/2.0e3bb38a.chunk.js.LICENSE.txt",
+    "static/css/main.cb02447e.chunk.css.map": "/Shore-Resort/static/css/main.cb02447e.chunk.css.map",
+    "static/js/2.809987dc.chunk.js.LICENSE.txt": "/Shore-Resort/static/js/2.809987dc.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/Shore-Resort/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.846b96c3.js",
+    "static/js/runtime-main.f85a2efe.js",
     "static/css/2.e62b1ac3.chunk.css",
-    "static/js/2.0e3bb38a.chunk.js",
-    "static/css/main.9eb5fa5f.chunk.css",
-    "static/js/main.1165536b.chunk.js"
+    "static/js/2.809987dc.chunk.js",
+    "static/css/main.cb02447e.chunk.css",
+    "static/js/main.7448a21a.chunk.js"
   ]
 }
