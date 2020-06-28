@@ -1,25 +1,17 @@
-.navbar {
-	background-color: #eeeeee;
+.navbar-header {
 	display: flex;
-	align-items: center;
-	/* flex-wrap: wrap; */
+	background-color: #eeeeee;
+	width: 100%;
 	position: sticky;
 	top: 0;
 	z-index: 10;
 }
 
-/* .navbar-header {
-	width: 100%;
-} */
-
-.navbar-hamburger {
-	display: none;
-	color: #c49624;
-	font-size: 1.5rem;
-	outline: none;
-	border: none;
-	cursor: pointer;
-	margin-left: 2rem;
+.navbar {
+	flex-grow: 1;
+	background-color: #eeeeee;
+	display: flex;
+	align-items: center;
 }
 
 .resort {
@@ -29,16 +21,11 @@
 .nav {
 	list-style: none;
 	display: flex;
-	/* flex-wrap: wrap; */
-	/* justify-content: space-evenly; */
-	/* height: 0;
-	overflow: hidden; */
 	transition: all 0.3s linear;
 }
 
 .show-nav {
-	height: auto;
-	/* display: none; */
+	display: none;
 }
 
 .navbar-brand {
@@ -65,7 +52,7 @@
 	color: #c49624;
 }
 
-@media screen and (min-width: 1360px) {
+@media (min-width: 1360px) {
 	.nav {
 		margin-left: auto;
 		margin-right: 4rem;
@@ -76,7 +63,7 @@
 	}
 }
 
-@media screen and (max-width: 1359px) {
+@media (max-width: 1359px) {
 	.nav {
 		margin: auto;
 	}
@@ -85,12 +72,13 @@
 	}
 }
 
-@media screen and (max-width: 1100px) {
-	/* .navbar-hamburger,
-	.navbar-brand {
-		display: inline-block;
-	} */
+@media (min-width: 1100px) {
+	.toggle-button {
+		display: none;
+	}
+}
 
+@media (max-width: 1100px) {
 	.navbar {
 		padding: 1em;
 	}
@@ -112,10 +100,3 @@
 		margin: 10px auto;
 	}
 }
-
-/* @media screen and (max-width: 1200px) {
-	.navbar-brand,
-	.nav-link {
-		font-size: 0.9rem;
-	}
-} */

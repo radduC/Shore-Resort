@@ -12,9 +12,3 @@
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
-
-/* @media screen and (max-width: 600px) {
-	.featured-rooms-grid {
-		--auto-grid-min-size: 20rem;
-	}
-} */

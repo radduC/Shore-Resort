@@ -30,14 +30,8 @@
 	font-size: 1.2rem;
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
 	.card-icon {
 		font-size: 3.5rem;
 	}
 }
-
-/* @media screen and (max-width: 600px) {
-	.card-container {
-		width: 100%;
-	}
-} */

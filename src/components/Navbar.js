@@ -1,61 +1,56 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-// import { FaBars } from 'react-icons/fa';
+import HamburgerToggleButton from './HamburgerToggleButton';
 import './Navbar.css';
 
 export default function Navbar() {
-	// const [open, setOpen] = useState(false);
-	// const handleClick = () => setOpen(!open);
+	const [open, setOpen] = useState(window.innerWidth <= 1100 ? false : true);
 
-	const menuOptions = ['Home', 'Rooms', 'Contact Us'];
-	const menu = menuOptions.map((option, index) => {
-		switch (option) {
-			case 'Home':
-				return (
-					<li key={index}>
+	useEffect(() => {
+		window.addEventListener('resize', updateDisplay);
+		return _ => window.removeEventListener('resize', updateDisplay);
+	});
+
+	const handleClick = () => setOpen(!open);
+
+	const updateDisplay = () => {
+		if (window.innerWidth < 1100) {
+			setOpen(false);
+		}
+		else {
+			setOpen(true);
+		}
+	};
+
+	let classes = open ? 'nav' : 'nav show-nav';
+
+	return (
+		<div className="navbar-header">
+			<nav className="navbar">
+				<Link to="/Shore-Resort/">
+					<h1 className="navbar-brand">
+						Shore <span className="resort">Resort</span>
+					</h1>
+				</Link>
+				<ul className={classes}>
+					<li>
 						<NavLink exact activeClassName="active" className="nav-link" to="/Shore-Resort/">
 							Home
 						</NavLink>
 					</li>
-				);
-
-			case 'Rooms':
-				return (
-					<li key={index}>
+					<li>
 						<NavLink exact activeClassName="active" className="nav-link" to="/Shore-Resort/view-rooms">
 							Rooms
 						</NavLink>
 					</li>
-				);
-
-			default:
-				return (
-					<li key={index}>
+					<li>
 						<NavLink exact activeClassName="active" className="nav-link" to="/Shore-Resort/contact">
 							Contact Us
 						</NavLink>
 					</li>
-				);
-		}
-	});
-
-	// useEffect(handleClick, []);
-
-	return (
-		<nav className="navbar">
-			{/* <div className="navbar-header"> */}
-			<Link to="/Shore-Resort/">
-				<h1 className="navbar-brand">
-					Shore <span className="resort">Resort</span>
-				</h1>
-			</Link>
-
-			{/* <button className="navbar-hamburger" onClick={handleClick}>
-					<FaBars />
-				</button> */}
-			{/* </div> */}
-			<ul className="nav">{menu}</ul>
-			{/* <ul className={open ? 'nav' : 'nav show-nav'}>{menu}</ul> */}
-		</nav>
+				</ul>
+			</nav>
+			<HamburgerToggleButton click={handleClick} />
+		</div>
 	);
 }

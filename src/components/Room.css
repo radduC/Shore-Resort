@@ -35,7 +35,7 @@
 	margin: 20px auto;
 }
 
-@media screen and (max-width: 1300px) {
+@media (max-width: 1300px) {
 	.carousel {
 		width: 100%;
 	}

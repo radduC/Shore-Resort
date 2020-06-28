@@ -42,7 +42,7 @@
 	background: transparent;
 }
 
-@media screen and (max-width: 1360px) {
+@media (max-width: 1360px) {
 	.front-section-container {
 		height: auto;
 	}
@@ -52,7 +52,7 @@
 	}
 }
 
-@media screen and (max-width: 1100px) {
+@media (max-width: 1100px) {
 	.front-section-title,
 	.front-section-content {
 		font-size: 1.5em;
@@ -63,7 +63,7 @@
 	}
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
 	.front-section-container {
 		height: auto;
 		padding: 0;
