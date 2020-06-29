@@ -25,32 +25,32 @@ export default function Navbar() {
 	let classes = open ? 'nav' : 'nav show-nav';
 
 	return (
-		<div className="navbar-header">
+		<header className="navbar-header">
 			<nav className="navbar">
-				<Link to="/Shore-Resort/">
+				<Link onClick={handleClick} to="/Shore-Resort/">
 					<h1 className="navbar-brand">
 						Shore <span className="resort">Resort</span>
 					</h1>
 				</Link>
 				<ul className={classes}>
 					<li>
-						<NavLink exact activeClassName="active" className="nav-link" to="/Shore-Resort/">
+						<NavLink onClick={handleClick} exact activeClassName="active" className="nav-link" to="/Shore-Resort/">
 							Home
 						</NavLink>
 					</li>
 					<li>
-						<NavLink exact activeClassName="active" className="nav-link" to="/Shore-Resort/view-rooms">
+						<NavLink onClick={handleClick} exact activeClassName="active" className="nav-link" to="/Shore-Resort/view-rooms">
 							Rooms
 						</NavLink>
 					</li>
 					<li>
-						<NavLink exact activeClassName="active" className="nav-link" to="/Shore-Resort/contact">
+						<NavLink onClick={handleClick} exact activeClassName="active" className="nav-link" to="/Shore-Resort/contact">
 							Contact Us
 						</NavLink>
 					</li>
 				</ul>
 			</nav>
 			<HamburgerToggleButton click={handleClick} />
-		</div>
+		</header>
 	);
 }
