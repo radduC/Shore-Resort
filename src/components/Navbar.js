@@ -27,24 +27,42 @@ export default function Navbar() {
 	return (
 		<header className="navbar-header">
 			<nav className="navbar">
-				<Link onClick={handleClick} to="/Shore-Resort/">
+				<Link onClick={updateDisplay} to="/Shore-Resort/">
 					<h1 className="navbar-brand">
 						Shore <span className="resort">Resort</span>
 					</h1>
 				</Link>
 				<ul className={classes}>
 					<li>
-						<NavLink onClick={handleClick} exact activeClassName="active" className="nav-link" to="/Shore-Resort/">
+						<NavLink
+							onClick={updateDisplay}
+							exact
+							activeClassName="active"
+							className="nav-link"
+							to="/Shore-Resort/"
+						>
 							Home
 						</NavLink>
 					</li>
 					<li>
-						<NavLink onClick={handleClick} exact activeClassName="active" className="nav-link" to="/Shore-Resort/view-rooms">
+						<NavLink
+							onClick={updateDisplay}
+							exact
+							activeClassName="active"
+							className="nav-link"
+							to="/Shore-Resort/view-rooms"
+						>
 							Rooms
 						</NavLink>
 					</li>
 					<li>
-						<NavLink onClick={handleClick} exact activeClassName="active" className="nav-link" to="/Shore-Resort/contact">
+						<NavLink
+							onClick={updateDisplay}
+							exact
+							activeClassName="active"
+							className="nav-link"
+							to="/Shore-Resort/contact"
+						>
 							Contact Us
 						</NavLink>
 					</li>
