@@ -1,9 +1,15 @@
-package com.beachresort;
+package com.beachresort.dto;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
 
 public class RoomDTO {
+    @Id
+    @Getter
+    @Setter
+    private int roomId;
+
     @Getter
     @Setter
     private boolean featured;
@@ -26,7 +32,7 @@ public class RoomDTO {
 
     @Getter
     @Setter
-    private String size;
+    private String room_size;
 
     @Getter
     @Setter
@@ -42,17 +48,17 @@ public class RoomDTO {
 
     @Getter
     @Setter
-    private String desc;
+    private String room_desc;
 
     @Getter
     @Setter
-    private String roomUrl;
+    private String room_url;
 
     @Getter
     @Setter
-    private String[] details;
+    private String details;
 
     @Getter
     @Setter
-    private String[] extras;
+    private String extras;
 }
